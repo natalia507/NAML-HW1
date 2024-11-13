@@ -1,6 +1,7 @@
 # NAML-HW1
 Using the UCI Abalone data set to analyze trends predicting age.
- Regression: For this problem use the data in the UCI data set Abalone (Abalone -
+
+1. Regression: For this problem use the data in the UCI data set Abalone (Abalone -
 UCI Machine Learning Repository) to do some linear regression analysis. The
 dataset contains 4177 instances of 8 features and a target. However, let’s take 500
 samples as the training set and 100 samples as the test set (pick them spread over
@@ -16,6 +17,7 @@ For your model, y is the number of rings (target) and the features x1 through x8
 the features. You should have 9 weights w0 through w8. I have uploaded the dataset,
 Abalone, as a .csv file into Canvas but do go to the site above for a thorough
 description of the dataset.
+
 2. Perceptron: For this problem, you will need to create a separable 2D dataset (x,y).
 Create the dataset as follows: on a 1x1 grid, generate 20 random data points. Then
 label each point by setting the label according to f(xi)= sign(yi-(.25+.5*xi)). (This will
@@ -29,6 +31,7 @@ converges. Now generate a test set of 100 points using f as above. With the fina
 weights, Count the number of prediction errors made by passing through the 100
 test points (No weight updates, just count the number of errors and report the
 accuracy of the Perceptron determined function).
+
 3. Support Vector Classification: For this problem, you will be looking at a classic ML
 dataset from the UCI repository, Iris (Iris - UCI Machine Learning Repository). For
 this exercise, use the SVC method from sklearn. If you look at the web page in the
